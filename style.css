@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
 /*Home-page*/
 body{
     background-image: url(images/home/HOME.jpg);
@@ -15,6 +17,10 @@ body{
     color: white;
     font-size: 30px;
     font-family: georgia, serif;
+}
+
+.logo{
+    image-rendering: url(images/home/LOGO.png);
 }
 
 *{
@@ -107,10 +113,12 @@ li a:hover{
     width: 384px;
     height: 100%;
     background: rgba(0, 0, 0, 0.6);
+    border-radius: 30px;
 }
 
 .carousel_1{
     border: 5px solid white;
+    border-radius: 30px;
     overflow: hidden;
     position: relative;
 }
@@ -132,6 +140,20 @@ img.blck_1{
     padding-bottom: 20px;
 }
 
+.controls_1 .arrow_1{
+    position: absolute;
+    color: white;
+    top: 50%;
+    cursor: pointer;
+}
+
+.left_1{
+    left: 60px;
+}
+
+.right_1{
+    right: 1115px;
+}
 
 
 /*Phones-2*/
@@ -150,9 +172,11 @@ img.blck_1{
     width: 384px;
     height: 100%;
     background: rgba(0, 0, 0, 0.6);
+    border-radius: 30px;
 }
 .carousel_2{
     border: 5px solid white;
+    border-radius: 30px;
     overflow: hidden;
     position: relative;
 }
@@ -174,6 +198,21 @@ img.blck_2{
     padding-bottom: 20px;
 }
 
+.controls_2 .arrow_2{
+    position: absolute;
+    color: white;
+    top: 50%;
+    cursor: pointer;
+}
+
+.left_2{
+    left: 600px;
+}
+
+.right_2{
+    right: 580px;
+}
+
 
 
 /*Phones-3*/
@@ -192,12 +231,14 @@ img.blck_2{
     width: 384px;
     height: 100%;
     background: rgba(0, 0, 0, 0.6);
+    border-radius: 30px;
 }
 
 .carousel_3{
     border: 5px solid white;
     overflow: hidden;
     position: relative;
+    border-radius: 30px;
 }
 
 img.blck_3{
@@ -215,4 +256,19 @@ img.blck_3{
     font-size: larger;
     padding-left: 95px;
     padding-bottom: 20px;
+}
+
+.controls_3 .arrow_3{
+    position: absolute;
+    color: white;
+    top: 50%;
+    cursor: pointer;
+}
+
+.left_3{
+    left: 1115px;
+}
+
+.right_3{
+    right: 60px;
 }
