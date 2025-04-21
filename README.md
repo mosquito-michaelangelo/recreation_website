@@ -1,4 +1,4 @@
-<p align="center"># project-techy-blinders</p>
+<h1 align="center"> project-techy-blinders</h1>
 
 ## Web Host URL
 [Techy Blinders, Web Host](https://darkorange-cormorant-406076.hostingersite.com/)
